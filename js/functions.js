@@ -14,7 +14,7 @@ function fase(){
 		var mm = dataHoje.getMonth()+1;
 		var yyyy = dataHoje.getFullYear();
 
-		var dataMenstruacao = document.getElementById("ultimaMenstruacao").value;
+		var dataMenstruacao = localStorage['stDate'];
 		var dataAtual = dd+"/"+mm+"/"+yyyy;
 	
 	        var data1 = moment(dataMenstruacao, "YYYY-MM-DD");
